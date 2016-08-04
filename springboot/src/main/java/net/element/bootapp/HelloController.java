@@ -13,5 +13,11 @@ public class HelloController {
 		return "Spring boot accessed successfully";
 	}
 	
+	@RequestMapping("/rest/androidboot")
+	public String restBootCallAndroid(){
+		
+		System.out.println("Calling Android app");
+		return "Android call received successfully";
+	}
 
 }
